@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffeb99;
+}
+
+/* Main Sections */
+main {
+    margin: 20px;
+}
+
+section, article, aside {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+}
+
+/* Headings */
+h2, h3 {
+    color: #2563eb;
+}
+
+/* Profile Image */
+img {
+    border-radius: 50%;
+    border: 3px solid #2563eb;
+    object-fit: cover;
+}
+
+/* Lists */
+li {
+    margin: 5px 0;
+}
+
+/* Sidebar */
+aside {
+    margin: 20px;
+    background-color: #dbeafe;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Hover Effect */
+section:hover, article:hover {
+    background-color: #f8fafc;
+}
+
+#about{
+    text-transform: capitalize;
+}
